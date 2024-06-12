@@ -1,0 +1,102 @@
+.navbar{
+    background-color: #1F2937;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 30px;
+    gap:20px;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:hover{
+    color: lightgray;
+}
+
+.logo{
+    padding-left: 20px;
+}
+
+body{
+    background-color: #1F2937;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    height: 500px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+}
+
+.container1{
+    background-color: #1F2937;
+}
+
+.content1{
+
+    margin-left: 200px;
+    padding-top: 3;
+    height: 300px;
+    width: 500px;
+}
+
+.awesome{
+    padding-top: 40px;
+    padding-left: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: white;
+}
+
+.subtext{
+    font-size: 20px;
+    padding: 10px;
+    margin: 0;
+    color: lightgray;
+}
+
+.signup{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    margin-left: 10px;
+    
+    
+}
+
+.content2{
+    background-color: rgb(126, 125, 125);
+    margin-top: 80px;
+    height: 250px;
+
+}
+
+.imgplace{
+    margin: 120px 50px 120px 50px;
+    text-align: center;
+    color: rgb(228, 225, 225);
+}
+
+.container2{
+    background-color:whitesmoke;
+}
+
+h1{
+    text-align: center;
+}
