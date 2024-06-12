@@ -131,3 +131,26 @@ h1 {
     height: 170px;
     width: 170px;
 }
+
+.container3{
+    background-color: #e5e7eb;
+    margin: 0;
+}
+
+.quote{
+    height: 500px;
+    width: 900px;
+    text-align: justify;
+    font-size: 36px;
+    color: #1F2937;
+    margin-left: auto;
+    margin-right: auto;
+    padding:10%;
+
+}
+
+.author{
+    text-align: right;
+    font-size: 25px;
+    font-weight: bold;
+}
