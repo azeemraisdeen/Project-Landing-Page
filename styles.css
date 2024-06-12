@@ -10,7 +10,7 @@
 .nav-links{
     list-style: none;
     display: flex;
-    margin: 0;
+    margin: 0 150px;
     padding: 30px;
     gap:20px;
 }
@@ -25,7 +25,9 @@
 }
 
 .logo{
-    padding-left: 20px;
+    padding-left: 200px;
+    font-size: 25px;
+    font-weight: bold;
     color:white;
 }
 
@@ -37,7 +39,7 @@ body{
 
 .container{
     height: 500px;
-    width: 100%;
+    width: 100vw;
     margin-top: 50px;
     display: flex;
 }
@@ -97,7 +99,7 @@ body{
 .container2{
     background-color:whitesmoke;
     height: 500px;
-    width: 100%;
+    width: 100vw;
     margin-top: 50px;
 }
 
@@ -135,6 +137,7 @@ h1 {
 .container3{
     background-color: #e5e7eb;
     margin: 0;
+    display: flex;
 }
 
 .quote{
@@ -153,4 +156,52 @@ h1 {
     text-align: right;
     font-size: 25px;
     font-weight: bold;
+}
+
+.container4{
+    background-color: white;
+    margin: 0;
+
+}
+
+.message-box{
+    background-color: #3882F6;
+    height: 150px;
+    width: 1000px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    margin-top: 100px;
+    color: white;
+    padding: 2% 0 0 5%;
+    display: flex;
+
+}
+
+.message{
+    width: 50vw;
+}
+
+.button{
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#button-final{
+    border: 2px solid white;
+}
+
+.footer{
+    height: 75px;
+    background-color: #1F2937;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
